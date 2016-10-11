@@ -15,5 +15,17 @@ $ npm install --save google-polyline
 ## Usage
 
 ```js
-var GooglePolyline = require( 'google-polyline' )
+var polyline = require( 'google-polyline' )
+```
+
+```js
+polyline.encode([
+  [ 38.5, -120.2 ],
+  [ 40.7, -120.95 ],
+  [ 43.252, -126.453 ]
+])
+```
+
+```js
+> '_p~iF~ps|U_ulLnnqC_mqNvxq`@'
 ```
