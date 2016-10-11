@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/google-polyline.svg?style=flat-square)](https://npmjs.com/google-polyline)
 [![build status](https://img.shields.io/travis/jhermsmeier/node-google-polyline.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-google-polyline)
 
-Encode / decode Google's polyline format
+Encodes and decodes [Google's polyline format](https://developers.google.com/maps/documentation/utilities/polylinealgorithm)
 
 ## Install via [npm](https://npmjs.com)
 
