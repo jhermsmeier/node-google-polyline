@@ -14,6 +14,7 @@
   "main": "lib/polyline.js",
   "dependencies": {},
   "devDependencies": {
+    "matcha": "~0.7.0",
     "mocha": "~3.1.2"
   },
   "homepage": "https://github.com/jhermsmeier/node-google-polyline",
@@ -28,6 +29,7 @@
     "test": "test"
   },
   "scripts": {
+    "benchmark": "matcha --reporter plain",
     "test": "mocha --ui tdd"
   }
 }
