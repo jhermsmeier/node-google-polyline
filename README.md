@@ -24,8 +24,16 @@ polyline.encode([
   [ 40.7, -120.95 ],
   [ 43.252, -126.453 ]
 ])
+
+> '_p~iF~ps|U_ulLnnqC_mqNvxq`@'
 ```
 
 ```js
-> '_p~iF~ps|U_ulLnnqC_mqNvxq`@'
+polyline.decode( '_p~iF~ps|U_ulLnnqC_mqNvxq`@' )
+
+> [
+  [ 38.5, -120.2 ],
+  [ 40.7, -120.95 ],
+  [ 43.252, -126.453 ]
+]
 ```
