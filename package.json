@@ -15,7 +15,7 @@
   "dependencies": {},
   "devDependencies": {
     "matcha": "~0.7.0",
-    "mocha": "~3.1.2"
+    "mocha": "^5.2.0"
   },
   "homepage": "https://github.com/jhermsmeier/node-google-polyline",
   "repository": {
