@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Encode / decode Google's polyline format",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
+  "contributers": [
+    "Gonzalo Infante <chalo.infante01@gmail.com>"
+  ],
   "license": "MIT",
   "keywords": [
     "google",
@@ -12,6 +15,10 @@
     "decode"
   ],
   "main": "lib/polyline.js",
+  "scripts": {
+    "benchmark": "nanobench benchmark/*.js",
+    "test": "mocha --ui tdd"
+  },
   "devDependencies": {
     "mocha": "^5.2.0",
     "nanobench": "^2.1.1"
@@ -26,9 +33,5 @@
   },
   "directories": {
     "test": "test"
-  },
-  "scripts": {
-    "benchmark": "nanobench benchmark/*.js",
-    "test": "mocha --ui tdd"
   }
 }
