@@ -1,14 +1,33 @@
+var bench = require( 'nanobench' )
 var polyline = require( '..' )
 var example = require( '../test/data/example-01' )
 
-suite( 'decode', function() {
+var ITERATIONS = 1000
 
-  bench( '3 points', function() {
-    return polyline.decode( '_p~iF~ps|U_ulLnnqC_mqNvxq`@' )
-  })
+bench( `decode: 3 points ⨉ ${ITERATIONS}`, function( run ) {
 
-  bench( '~350 points', function() {
-    return polyline.decode( example.polyline )
-  })
+  var result = null
+
+  run.start()
+
+  for( var i = 0; i < ITERATIONS; i++ ) {
+    result = polyline.decode( '_p~iF~ps|U_ulLnnqC_mqNvxq`@' )
+  }
+
+  run.end()
+
+})
+
+bench( `decode: ~350 points ⨉ ${ITERATIONS}`, function( run ) {
+
+  var result = null
+
+  run.start()
+
+  for( var i = 0; i < ITERATIONS; i++ ) {
+    result = polyline.decode( example.polyline )
+  }
+
+  run.end()
 
 })

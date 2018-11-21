@@ -12,10 +12,9 @@
     "decode"
   ],
   "main": "lib/polyline.js",
-  "dependencies": {},
   "devDependencies": {
-    "matcha": "~0.7.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "nanobench": "^2.1.1"
   },
   "homepage": "https://github.com/jhermsmeier/node-google-polyline",
   "repository": {
@@ -29,7 +28,7 @@
     "test": "test"
   },
   "scripts": {
-    "benchmark": "matcha --reporter plain",
+    "benchmark": "nanobench benchmark/*.js",
     "test": "mocha --ui tdd"
   }
 }
