@@ -1,6 +1,6 @@
 {
   "name": "google-polyline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encode / decode Google's polyline format",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "contributers": [
