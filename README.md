@@ -45,15 +45,15 @@ $ npm run benchmark
 ```
 
 ```
-# decode: 3 points ⨉ 1000
-ok ~9.03 ms (0 s + 9026482 ns)
+# decode: 3 points ⨉ 100000
+ok ~21 ms (0 s + 21199187 ns)
 
-# decode: ~350 points ⨉ 1000
-ok ~34 ms (0 s + 33985497 ns)
+# decode: ~350 points ⨉ 100000
+ok ~741 ms (0 s + 740819246 ns)
 
-# encode: 3 points ⨉ 1000
-ok ~16 ms (0 s + 15696046 ns)
+# encode: 3 points ⨉ 100000
+ok ~221 ms (0 s + 221480259 ns)
 
-# encode: ~350 points ⨉ 1000
-ok ~80 ms (0 s + 80340403 ns)
+# encode: ~350 points ⨉ 100000
+ok ~2.4 s (2 s + 403294668 ns)
 ```
