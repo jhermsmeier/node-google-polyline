@@ -2,7 +2,7 @@ var bench = require( 'nanobench' )
 var polyline = require( '..' )
 var example = require( '../test/data/example-01' )
 
-var ITERATIONS = 1000
+var ITERATIONS = 100000
 
 bench( `encode: 3 points ⨉ ${ITERATIONS}`, function( run ) {
 
