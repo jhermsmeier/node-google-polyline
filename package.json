@@ -15,13 +15,15 @@
     "decode"
   ],
   "main": "lib/polyline.js",
+  "types": "index.d.ts",
   "scripts": {
     "benchmark": "nanobench benchmark/*.js",
-    "test": "mocha --ui tdd"
+    "test": "mocha --ui tdd && tsd"
   },
   "devDependencies": {
     "mocha": "^5.2.0",
-    "nanobench": "^2.1.1"
+    "nanobench": "^2.1.1",
+    "tsd": "^0.13.1"
   },
   "homepage": "https://github.com/jhermsmeier/node-google-polyline",
   "repository": {
